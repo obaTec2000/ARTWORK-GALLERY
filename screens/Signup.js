@@ -145,7 +145,7 @@ function Signup() {
 
       {/* Button */}
       <View style={styles.buttonStyle}>
-        <Button style={styles.buttonDesign}>
+        <Button style={styles.buttonDesign}  onPress={() => navigation.navigate("Login")} >
             REGISTER NOW
         </Button>
       </View>
